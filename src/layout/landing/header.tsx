@@ -49,7 +49,7 @@ const LandingHeader = () => {
                   <Link to={""} className={`fs-500 fw-500 hover:fw-600 ${pathname === '/contact' && 'text-primary fw-600'}`}>Contact Us</Link>
                 </li>
                 <li>
-                  <Link to={""} className="fw-500 btn-primary px-6 py-3 rounded-full">Register</Link>
+                  <Link to={"/auth/register"} className="fw-500 btn-primary px-6 py-3 rounded-full">Register</Link>
                 </li>
               </ul>
             </div>

@@ -47,7 +47,7 @@ const Certification = () => {
           </div>
         </div>
       </div>
-      <img src={pattern} alt="pattern" className="absolute w-24 -top-4 left-6"/>
+      <img src={pattern} alt="pattern" className="absolute w-12 lg:w-24 top-2 lg:-top-4 left-6"/>
     </div>
   );
 };

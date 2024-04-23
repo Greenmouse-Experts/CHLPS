@@ -20,7 +20,7 @@ const HeroSwipe = () => {
         className="h-[570px] 2xl:h-[610px]"
       >
         <SwiperSlide>
-          <div className="relative bg-[url(https://res.cloudinary.com/greenmouse-tech/image/upload/v1713786509/chlps/Rectangle_48_2_1_u0uhdn.png)] bg-gray-700 bg-cover">
+          <div className="relative bg-[url(https://res.cloudinary.com/greenmouse-tech/image/upload/v1713786509/chlps/Rectangle_48_2_1_u0uhdn.png)] bg-gray-700 bg-center bg-cover">
             <div className="box h-[570px] 2xl:h-[610px]">
               <div className="flex h-full items-center">
                 <div>
@@ -55,7 +55,7 @@ const HeroSwipe = () => {
           </div>
         </SwiperSlide>
         <SwiperSlide>
-          <div className="relative bg-[url(https://res.cloudinary.com/greenmouse-tech/image/upload/v1713873038/chlps/Rectangle_50_uplxwc.png)] bg-gray-700 bg-cover">
+          <div className="relative bg-[url(https://res.cloudinary.com/greenmouse-tech/image/upload/v1713873038/chlps/Rectangle_50_uplxwc.png)] bg-gray-700 bg-cover bg-center">
             <div className="box h-[570px] 2xl:h-[610px]">
               <div className="flex h-full items-center">
                 <div>
@@ -90,7 +90,7 @@ const HeroSwipe = () => {
           </div>
         </SwiperSlide>
         <SwiperSlide>
-          <div className="relative bg-[url(https://res.cloudinary.com/greenmouse-tech/image/upload/v1713873043/chlps/Rectangle_51_l2yzdt.png)] bg-gray-700 bg-cover">
+          <div className="relative bg-[url(https://res.cloudinary.com/greenmouse-tech/image/upload/v1713873043/chlps/Rectangle_51_l2yzdt.png)] bg-gray-700 bg-cover bg-center">
             <div className="box h-[570px] 2xl:h-[610px]">
               <div className="flex h-full items-center">
                 <div>
@@ -125,7 +125,7 @@ const HeroSwipe = () => {
           </div>
         </SwiperSlide>
         <SwiperSlide>
-          <div className="relative bg-[url(https://res.cloudinary.com/greenmouse-tech/image/upload/v1713873042/chlps/Rectangle_52_i3axj6.png)] bg-gray-700 bg-cover">
+          <div className="relative bg-[url(https://res.cloudinary.com/greenmouse-tech/image/upload/v1713873042/chlps/Rectangle_52_i3axj6.png)] bg-gray-700 bg-cover bg-center">
             <div className="box h-[570px] 2xl:h-[610px]">
               <div className="flex h-full items-center">
                 <div>
