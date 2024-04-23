@@ -4,11 +4,12 @@ import LandingFooter from "./footer"
 import ScrollToTop from "../../lib/utils/scrollTop"
 
 const LandingLayout = () => {
+  
   return (
     <div>
       <ScrollToTop />
         <LandingHeader/>
-        <Outlet/>
+        <Outlet key={Date.now()}/>
         <LandingFooter/>
     </div>
   )
