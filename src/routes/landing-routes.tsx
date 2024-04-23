@@ -4,7 +4,7 @@ import Homepage from "../pages/landing/homepage";
 
 export const landingRoutes = [
     {
-        path: '',
+        path: '/',
         element: <LandingLayout/>,
         children: [
           {
