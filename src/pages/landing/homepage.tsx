@@ -1,3 +1,5 @@
+import LandingFooter from "../../layout/landing/footer";
+import LandingHeader from "../../layout/landing/header";
 import Certification from "../../lib/modules/landing/homepage/certification";
 import LandingFeatures from "../../lib/modules/landing/homepage/features";
 import HeroSection from "../../lib/modules/landing/homepage/hero-section";
@@ -9,6 +11,7 @@ import WhoWeAre from "../../lib/modules/landing/homepage/who-we-are";
 const Homepage = () => {
   return (
     <div>
+      <LandingHeader/>
       <HeroSection />
       <WhoWeAre />
       <Certification />
@@ -16,6 +19,7 @@ const Homepage = () => {
       <Unlocking />
       <JoinUs />
       <Testimonials />
+      <LandingFooter/>
     </div>
   );
 };
