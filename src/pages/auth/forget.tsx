@@ -1,6 +1,5 @@
 import { Link, useNavigate } from "react-router-dom";
 import logo from "../../assets/logo.svg";
-import LoginForm from "../../lib/modules/auth/login-form";
 import ForgetPasswordForm from "../../lib/modules/auth/forget-form";
 
 const ForgetPage = () => {
