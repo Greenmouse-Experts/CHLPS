@@ -13,7 +13,7 @@
 // import ProfileAvatar from "../../../ui/ProfileAvatar";
 // import { BsGear } from "react-icons/bs";
 // import { IoHomeOutline, IoLogOutOutline } from "react-icons/io5";
-import { Outlet, useNavigate } from "react-router-dom";
+import { Outlet } from "react-router-dom";
 import SidebarLayout from "./sections/sidebar";
 import useAuth from "../../hooks/authUser";
 import ProfileAvatar from "../../lib/components/ProfileAvatar";

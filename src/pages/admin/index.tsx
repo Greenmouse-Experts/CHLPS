@@ -1,5 +1,4 @@
-import { Route, Routes, useNavigate } from "react-router-dom";
-import { useEffect } from "react";
+import {  Routes } from "react-router-dom";
 
 const AdminIndex = () => {
     // const token = localStorage.getItem('guard_token')
