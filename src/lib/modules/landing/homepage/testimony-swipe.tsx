@@ -30,17 +30,17 @@ const TestimonySwipe = () => {
     },
   ];
   return (
-    <div className="pl-4">
+    <div className="sm:pl-4">
       <Swiper
         effect={"cards"}
         grabCursor={true}
         modules={[EffectCards]}
-        className="mySwiper w-[300px] lg:w-[450px]"
+        className="mySwiper  border-2 w-[80%] lg:w-[450px]"
       >
         {reviews.map((item, i) => (
           <SwiperSlide
             key={i}
-            className="text-white w-full px-8 py-6 lg:py-8 rounded-[12px] bg-[#260791] shadow-md"
+            className="text-white w-full px-2 md:px-8 py-6 lg:py-8 rounded-[12px] bg-[#260791] shadow-md"
           >
             <div>
               <div className="h-[140px] lg:h-[120px]">
