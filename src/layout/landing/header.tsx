@@ -19,7 +19,7 @@ const LandingHeader = () => {
                 <img src={logo} alt="logo" className="w-36 lg:w-44 xl:w-[220px]" />
               </Link>
             </div>
-            <div className="w-8/12">
+            <div className="lg:w-8/12">
               <div className="lg:hidden">
                 <TiThMenuOutline
                   className="text-xl cursor-pointer"

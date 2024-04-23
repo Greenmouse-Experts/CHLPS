@@ -33,7 +33,7 @@ const LandingFeatures = () => {
               </p>
             </div>
             <div className="flex mt-[58px] gap-1 lg:gap-4">
-              <div className="w-[43%]">
+              <div className="w-auto grow">
                 <div className="bg-[url(https://res.cloudinary.com/greenmouse-tech/image/upload/v1713789464/chlps/Rectangle_33_szpqkq.png)] bg-cover w-full h-[480px] rounded-[23px]">
                   <div className="w-full h-full flex items-end px-1 py-6 lg:p-6">
                     <div className="relative w-full pb-20 text-white">
@@ -49,7 +49,7 @@ const LandingFeatures = () => {
                   </div>
                 </div>
               </div>
-              <div className="w-[28%]">
+              <div className="w-[28%] hover:w-[43%] duration-100">
                 <div className="bg-[url(https://res.cloudinary.com/greenmouse-tech/image/upload/v1713789465/chlps/Rectangle_34_pkw14z.png)] bg-cover w-full h-[480px] rounded-[23px]">
                   <div className="w-full h-full flex items-end px-1 py-6 lg:p-6">
                     <div className="relative w-full pb-20 text-white">
@@ -65,7 +65,7 @@ const LandingFeatures = () => {
                   </div>
                 </div>
               </div>
-              <div className="w-[28%]">
+              <div className="w-[28%] hover:w-[43%] duration-100">
                 <div className="bg-[url(https://res.cloudinary.com/greenmouse-tech/image/upload/v1713789465/chlps/Rectangle_35_neqajn.png)] bg-cover w-full h-[480px] rounded-[23px]">
                   <div className="w-full h-full flex items-end px-1 py-6 lg:p-6">
                     <div className="relative w-full pb-20 text-white">
