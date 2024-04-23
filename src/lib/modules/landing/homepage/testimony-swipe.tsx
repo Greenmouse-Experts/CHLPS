@@ -35,7 +35,7 @@ const TestimonySwipe = () => {
         effect={"cards"}
         grabCursor={true}
         modules={[EffectCards]}
-        className="mySwiper  border-2 w-[80%] lg:w-[450px]"
+        className="mySwiper w-[80%] lg:w-[450px]"
       >
         {reviews.map((item, i) => (
           <SwiperSlide
