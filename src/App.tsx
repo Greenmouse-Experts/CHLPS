@@ -7,6 +7,7 @@ import RegisterPage from "./pages/auth/register";
 import VerifyOtp from "./pages/auth/otp";
 import AdminDashboardLayout from "./layout/user";
 import UserDashboard from "./pages/user/dashboard";
+import ForgetPage from "./pages/auth/forget";
 
 // const router = createBrowserRouter([...landingRoutes]);
 
@@ -20,6 +21,7 @@ function App() {
       <Route path="/auth/register" element={<RegisterPage />} />
       <Route path="/auth/login" element={<LoginPage />} />
       <Route path="/auth/otp" element={<VerifyOtp />} />
+      <Route path="/auth/forget" element={<ForgetPage />} />
       <Route path="/user/*" element={<AdminDashboardLayout />}>
         <Route path="dashboard" element={<UserDashboard />} />
       </Route>
