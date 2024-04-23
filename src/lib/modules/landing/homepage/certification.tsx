@@ -1,10 +1,11 @@
 import { Link } from "react-router-dom";
 import BtnContent from "../../../components/btn-content";
 import { BsArrowUpRightCircleFill } from "react-icons/bs";
+import pattern from '../../../../assets/pattern.svg'
 
 const Certification = () => {
   return (
-    <div>
+    <div className="relative pt-8">
       <div className="bg-[#1C1C1C]">
         <div className="section">
           <div className="box">
@@ -46,6 +47,7 @@ const Certification = () => {
           </div>
         </div>
       </div>
+      <img src={pattern} alt="pattern" className="absolute w-24 -top-4 left-6"/>
     </div>
   );
 };

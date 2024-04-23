@@ -11,7 +11,7 @@ import WhoWeAre from "../../lib/modules/landing/homepage/who-we-are";
 const Homepage = () => {
   return (
     <div>
-      <LandingHeader/>
+      <LandingHeader />
       <HeroSection />
       <WhoWeAre />
       <Certification />
@@ -19,7 +19,7 @@ const Homepage = () => {
       <Unlocking />
       <JoinUs />
       <Testimonials />
-      <LandingFooter/>
+      <LandingFooter />
     </div>
   );
 };
